@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Browser width > 1200px Start */
+
+header {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    border-bottom: 1px solid purple;
+}
+
+header h1 {
+    display: inline;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+header nav{
+    float: right;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+section#container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+section#container #main {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    display: table;
+    border: 1px solid green;
+}
+
+section#container #main h2 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+section#container #project {
+    margin-top: 15px;
+}
+
+section#container #project h2 {
+    text-align: center;
+}
+
+section#container #project #project-group {
+    text-align: center;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+section#container #project .project-list {
+    display: inline-block;
+    width: 480px;
+    height: 320px;
+    border: 1px solid magenta;
+}
+
+section#container #project .project-list h3{
+    text-align: center;
+}
+
+section#container #technique h2 {
+    text-align: center;
+}
+
+section#container #technique-group {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+section#container #technique article {
+    display: inline-flex;
+    width: 350px;
+    height: 220px;
+    border: 1px solid magenta;
+}
+
+section#container #technique article p {
+    text-align: center;
+}
