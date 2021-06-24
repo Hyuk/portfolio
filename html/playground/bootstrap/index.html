@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hyukho Song - Front-end Developer</title>
+   <!-- FONTAWESOME CSS-->
+   <script src="https://kit.fontawesome.com/7debb3d01d.js" crossorigin="anonymous"></script>
+   <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+   <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
+   <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+   <!-- BOOTSTRAP CSS-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <!-- CUSTOM CSS -->
+   <link rel="stylesheet" href="../../src/css/style.css">
+</head>
+<body>
+   <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <div class="container">
+         <a href="index.html" class="navbar-brand">Hyukho Song</a>
+         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item px-3">
+                  <a href="../../index.html" class="nav-link">Home</a>
+               </li>
+               <li class="nav-item px-3">
+                  <a href="../../about.html" class="nav-link">About</a>
+               </li>
+               <li class="nav-item px-3">
+                  <a href="../../experience.html" class="nav-link">Experience</a>
+               </li>
+               <li class="nav-item px-3">
+                  <a href="../../showcase.html" class="nav-link">Showcase</a>
+               </li>
+               <li class="nav-item px-3 active">
+                  <a href="../../playground.html" class="nav-link">Playground</a>
+               </li>
+               <li class="nav-item px-3">
+                  <a href="../../contact.html" class="nav-link">Contact</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <!-- PAGE HEADER -->
+   <header id="page-header">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 m-auto text-center">
+               <h1>Bootstrap</h1>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <section id="bootstrap-colors">
+      <div class="container">
+         <div class="row">
+            <div class="col">
+               <h1>Background Colors</h1>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-3 bg-primary text-center text-white p-3  mb-3 border">
+               <p>.bg-primary</p>
+            </div>
+            <div class="col-md-3 bg-secondary text-center text-white p-3 mb-3 border">
+               <p>.bg-secondary</p>
+            </div>
+            <div class="col-md-3 bg-success text-center text-white p-3 mb-3 border">
+               <p>.bg-success</p>
+            </div>
+            <div class="col-md-3 bg-warning text-center p-3 mb-3 border">
+               <p>.bg-warning</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-3 bg-danger text-center text-white p-3 mb-3 border">
+               <p>.bg-danger</p>
+            </div>
+            <div class="col-md-3 bg-info text-center text-white p-3 mb-3 border">
+               <p>.bg-info</p>
+            </div>
+            <div class="col-md-3 bg-light text-center p-3 mb-3 border">
+               <p>.bg-light</p>
+            </div>
+            <div class="col-md-3 bg-dark text-center text-white p-3 mb-3 border">
+               <p>.bg-dark</p>
+            </div>
+         </div>
+         <div class="row mb-3">
+            <div class="col-md-3 bg-white text-center p-3 mb-3 border">
+               <p>.bg-white</p>
+            </div>
+            <div class="col-md-3 bg-transparent text-center p-3 mb-3 border">
+               <p>.bg-transparent</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- FOOTER -->
+   <footer id="main-footer" class="text-center p-4 bg-dark text-white">
+      <div class="container">
+         <div class="row">
+            <div class="col">
+               <p>Copyright &copy; <span id="year"></span> Hyukho Song</p>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <!-- JQUERY JS-->
+   <script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+   <!-- BOOTSTRAP JS-->
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   <!-- CUSTOM JS -->
+   <script>
+      // Get the current year the copyright
+      $('#year').text(new Date().getFullYear());
+   </script>
+</body>
+</html>
